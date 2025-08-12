@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.card { @apply bg-white rounded-2xl shadow-soft border border-gray-100; }
+.kpi { @apply p-4 md:p-6 card flex flex-col gap-1; }
